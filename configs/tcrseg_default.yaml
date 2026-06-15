@@ -1,0 +1,15 @@
+prior_mode: uncertain_trust_logit
+prior_weight: 0.10
+prior_start_click: 1
+prior_click_margin: 0.05
+prior_trust_tau: 0.15
+prior_weight_schedule: []
+
+threshold_mode: click_consistency_regularized
+threshold_candidates: [0.35, 0.40, 0.45, 0.49, 0.50, 0.55, 0.60, 0.65]
+default_threshold: 0.49
+threshold_click_margin: 0.02
+threshold_default_penalty: 0.01
+
+routing_strategy: distance_then_component_area
+routing_switch_after: 9
