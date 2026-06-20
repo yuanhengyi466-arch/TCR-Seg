@@ -7,8 +7,6 @@ This repository contains a lightweight inference controller for click-based 2D m
 - click-constrained threshold selection;
 - component-aware routing utilities for benchmark click simulation.
 
-The repository does not include datasets, checkpoints, experiment logs, or vendored baseline code.
-
 ## Installation
 
 ```bash
